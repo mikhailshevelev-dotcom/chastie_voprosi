@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Памятка: типы сделок и частые вопросы</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f4f8;--card:#fff;--tx:#29303e;--mu:#6b7280;--ln:#e3e5ec;--pr:#951b81;--soft:#f6eaf4;--gr:linear-gradient(135deg,#831f82 0%,#c7017f 60%,#e30613 100%);--ok:#951b81;--no:#e30613;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a1e27;--card:#29303e;--tx:#f1f2f6;--mu:#a4abba;--ln:#3a4254;--pr:#e06ccb;--soft:#3a2c3f;--ok:#e06ccb;--no:#ff5a63;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1a1e27;--card:#29303e;--tx:#f1f2f6;--mu:#a4abba;--ln:#3a4254;--pr:#e06ccb;--soft:#3a2c3f;--ok:#e06ccb;--no:#ff5a63;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 15px/1.5 Montserrat,"Segoe UI",Arial,sans-serif}
+.wrap{max-width:700px;margin:0 auto;padding:16px}
+.top{background:var(--gr);color:#fff;border-radius:18px;padding:20px 22px;margin-bottom:16px}
+.logo{font-weight:700;letter-spacing:.28em;font-size:13px;opacity:.9}
+.top h1{margin:6px 0 0;font-size:24px;line-height:1.2;font-weight:700}
+.top p{margin:6px 0 0;opacity:.9;font-size:13px}
+.search{display:flex;align-items:center;gap:10px;background:var(--card);border:2px solid var(--ln);border-radius:14px;padding:0 14px;margin-bottom:16px}
+.search:focus-within{border-color:var(--pr)}
+.search input{flex:1;border:0;background:transparent;color:var(--tx);font:500 15px Montserrat,sans-serif;padding:14px 0;outline:0;min-width:0}
+.search button{border:0;background:var(--soft);color:var(--pr);border-radius:8px;width:28px;height:28px;cursor:pointer;font-size:16px;display:none}
+.card{position:relative;display:block;width:100%;background:var(--card);border-radius:6px;padding:22px 22px 22px 26px;cursor:pointer;border:1px solid var(--ln);border-left:4px solid #951b81;box-shadow:0 2px 10px rgba(41,48,62,.06);text-align:left;font:inherit;color:inherit;min-height:112px;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(41,48,62,.18)}
+.card h3{margin:0 0 8px;font-size:17px;line-height:1.3;font-weight:700;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.card small{color:var(--mu);display:block;font-size:13px}
+.back{border:0;background:#151826;color:#fff;font:700 14px Montserrat,sans-serif;padding:12px 20px;border-radius:14px;cursor:pointer;margin-bottom:16px}
+.crumb{color:var(--mu);font-size:14px;margin:0 0 14px}
+.crumb a{color:var(--pr);font-weight:600;cursor:pointer}
+h1.pt{font-size:32px;line-height:1.15;margin:0 0 24px}
+h1.pt:after{content:"";display:block;width:90px;height:5px;border-radius:3px;background:var(--gr);margin-top:12px}
+@media(max-width:760px){h1.pt{font-size:24px}}
+.band{background:var(--tx);color:var(--bg);border-radius:6px 6px 0 0;padding:14px 20px;font-weight:700;font-size:16px;display:flex;justify-content:space-between;align-items:center}
+.band i{font-style:normal;font-weight:500;font-size:12px;opacity:.7}
+:root[data-theme="dark"] .band{background:#0f1218;color:#fff}
+.panel{background:var(--card);border:1px solid var(--ln);border-top:0;border-radius:0 0 6px 6px;padding:6px 14px 14px}
+h2.sec{margin:20px 0 10px;font-size:17px;display:flex;align-items:center;gap:10px}
+h2.sec:before{content:"";width:6px;height:22px;border-radius:3px;background:var(--gr)}
+details.q{border-bottom:1px solid var(--ln)}
+.panel details.q:last-child{border-bottom:0}
+details.q summary{list-style:none;cursor:pointer;padding:14px 30px 14px 4px;font-weight:600;position:relative}
+details.q summary::-webkit-details-marker{display:none}
+details.q summary:after{content:"+";position:absolute;right:6px;top:11px;font-size:22px;color:var(--pr);font-weight:500}
+details.q[open] summary:after{content:"–"}
+details.q[open] summary{color:var(--pr)}
+.a{padding:0 4px 16px;color:var(--tx)}
+.a .ans{background:var(--soft);border-left:4px solid var(--pr);border-radius:0 10px 10px 0;padding:12px 14px}
+.lnk{display:inline-block;margin-top:8px;background:var(--gr);color:#fff;text-decoration:none;font-weight:600;font-size:13px;padding:8px 14px;border-radius:999px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 6px}
+.chip{border:1px solid var(--ln);background:var(--card);color:var(--tx);font:600 13px Montserrat,sans-serif;padding:8px 14px;border-radius:999px;cursor:pointer}
+.chip.on{background:var(--gr);color:#fff;border-color:transparent}
+.note{background:var(--card);border:1px solid var(--ln);border-radius:6px;padding:14px 16px;margin-bottom:10px}
+.note b{display:block;margin-bottom:4px}
+.warn{margin-top:10px;background:var(--soft);border-left:4px solid var(--no);border-radius:0 10px 10px 0;padding:10px 12px;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.bank{background:var(--card);border:1px solid var(--ln);border-radius:6px;overflow:hidden}
+.bank h4{margin:0;padding:10px 14px;background:var(--tx);color:var(--bg);font-size:14px;display:flex;justify-content:space-between;align-items:center}
+:root[data-theme="dark"] .bank h4{background:#0f1218;color:#fff}
+.bank .r{padding:12px 14px;border-top:1px solid var(--ln);font-size:14px}
+.bank .r:first-of-type{border-top:0}
+.tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--pr);background:var(--soft);border-radius:6px;padding:2px 8px;margin-bottom:5px}
+.st{font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;background:#fff;color:var(--ok)}
+.st.no{color:var(--no)}
+.hide{display:none!important}
+.cards .card{aspect-ratio:auto;min-height:84px;padding:12px 14px 12px 16px;border-radius:18px;display:flex;flex-direction:column;justify-content:center;overflow:hidden}.cards .card h3{font-size:14px;margin:0 0 4px;-webkit-line-clamp:3;overflow-wrap:anywhere;hyphens:auto}.gw .card{min-height:0;padding:14px 20px 14px 22px}
+.blk{margin-bottom:16px}.blk .grid{padding-top:12px}.gw{margin-top:4px}.gw .card{border-bottom-left-radius:6px;display:flex;justify-content:space-between;align-items:center;gap:12px}.gw .card h3{margin:0 0 4px}.gw .arr{font-size:22px;color:var(--pr);font-weight:600}
+mark{background:#ffd9f5;color:#29303e;border-radius:3px;padding:0 2px}
+.res{background:var(--card);border:1px solid var(--ln);border-radius:14px;padding:14px 16px;margin-bottom:10px;cursor:pointer}
+.res small{color:var(--pr);font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+.res p{margin:4px 0 0;font-size:14px}
+.empty{text-align:center;color:var(--mu);padding:30px 0}
+@media(max-width:760px){.cards{gap:8px}.cards .card{padding:10px 8px 10px 12px;border-radius:16px}.cards .card h3{font-size:12px}.card small{font-size:11px}.top h1{font-size:20px}}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+<script>
+var AB=["Ребенок до 14 лет","Ребенок старше 14 лет"];
+var G=[
+["Можно ли открыть эскроу при блокировке/аресте счетов клиента по ФЗ в Сбере/Альфе?","Зависит от статьи, в большинстве случаев можно. Эскроу-счёт открывается в отделении банка."],
+["Какие обязательные пункты должны быть в генеральной доверенности, чтобы клиент смог подписать документы, открыть эскроу и внести средства?","Полномочия на все действия по подписанию/регистрации ДДУ/ДКП + на все действия с банковскими счетами + эскроу."],
+["Можем ли провести ипотечную сделку, если у клиента нет постоянной регистрации?","Зависит от банка и программы кредитования. Информацию можно посмотреть здесь.","Список банков и программ","https://docs.google.com/spreadsheets/d/1BIwMWMBAB7LR9MbR5qGrIXYbq_LdFshCPz1Q_l-Mqcs/edit?gid=0"],
+["Если покупатели планируют оформлять семейную ипотеку, 5 детей — свидетельства о рождении всех детей необходимы или только целевого?","Необходимы свидетельства всех детей, плюс документ, подтверждающий смену фамилии (если такое произошло). Банк проверяет документы для снижения ставки."],
+["Какая комиссия будет при оплате СБР Сбера/ВТБ с других банков?","Комиссия зависит от банка-отправителя, а также от подключённых подписок. Например, при подключении СберПрайм комиссия отсутствует."],
+["Можно ли оформить договор на иностранного гражданина недружественной страны?","На практике были сделки с гражданами Украины, Канады. Необходимо уточнять, гражданство какой страны у покупателя."]
+];
+var S={
+minors:{n:"01",t:"Сделки с несовершеннолетними",s:"Нюансы оформления",b:[
+ {k:"note",h:"Рассрочка / отсрочка",t:"Рассрочка и отсрочка платежа с оформлением на несовершеннолетнего разрешены только с согласования Ермолаева Н.А.",w:"Исключение: денежные средства от погибшего на СВО родителя — в таком случае отсрочку согласовывает РОП."},
+ {k:"bank",h:"Открытие эскроу-счёта",i:[
+  ["Сбер",["Ребенок до 14 лет: эскроу открывается в отделении банка законным представителем.","Ребенок старше 14 лет: открывает карту Сбера, скачивает приложение и самостоятельно открывает эскроу, либо в отделении банка."]],
+  ["Альфа банк",["Ребенок до 14 лет: эскроу открывается только с разрешения опеки, при личном посещении офиса. Пример приказа размещён в папке.","Ребенок старше 14 лет: приказ опеки не требуется, открытие эскроу происходит в отделении банка."],"Пример приказа опеки","https://drive.google.com/drive/folders/1IkhhWi8kVj2EIOPElnRNtJxNZ8znBiPO"],
+  ["Домрф",["Ребенок до 14 лет: эскроу открывается только с разрешения опеки, при личном посещении офиса ребенка и законного представителя.","Ребенок старше 14 лет: приказ опеки не требуется, открытие эскроу возможно через юристов Страны."]]]},
+ {k:"bank",h:"СБР",i:[["М2",["Возможно открытие СБР на несовершеннолетнего."],0,0,1],["СБР от СЭР",["Возможно открытие СБР на несовершеннолетнего."],0,0,1]]},
+ {k:"faq",i:[
+  ["В сделке участвует отец с детьми — нужна ли мама, чтобы подписывать за детей?","Мама не требуется, так как отец может представлять интересы детей как законный представитель."],
+  ["Продают квартиру с детскими долями и используют МСК. Можем ли мы посчитать им размер доли?","Размер долей мы не рассчитываем, так как не берём на себя эту ответственность. Доли рассчитывают покупатели самостоятельно или со своим брокером. Мы можем дать лишь рекомендации, например: при расчёте не забудьте учесть площадь с продажи и отдельно площадь при покупке с МСК пропорционально сумме."],
+  ["В сделке ребенок 14 лет — нужна ли ему своя эл. почта или достаточно почты мамы?","Почта необходима на всех участников от 14 лет, так как на них выпускается ЭЦП и они подписывают договор сами."]]}]},
+ooo:{n:"02",t:"Сделки с ООО",s:"Эскроу, СБР и оплата",b:[
+ {k:"bank",h:"Открытие эскроу-счёта",i:[
+  ["Сбер",["Бронирование эскроу происходит на бумаге. После обработки заявки банком (до 3 рабочих дней) эскроу открывается в отделении банка очно.","При наличии СберБизнеса эскроу открывается онлайн."]],
+  ["Альфа банк",["Пакет документов по ЮЛ направляется в банк на электронную почту. Банк до трёх суток рассматривает документы, после чего приглашает ЮЛ в отделение на подписание документов и открытие счёта. С собой необходимо иметь учредительные документы."]],
+  ["Домрф",["Пакет документов по ЮЛ направляется в банк на электронную почту. Банк в течение недели рассматривает документы, после чего приглашает ЮЛ в отделение на подписание документов и открытие счёта.","При наличии расчётного счёта у ООО в Домрф эскроу можно открыть онлайн."]]]},
+ {k:"bank",h:"СБР",i:[["М2",["Возможно."],0,0,1],["Сбер",["Невозможно."],0,0,2]]},
+ {k:"faq",i:[["Можно ли оформить договор на юрлицо/ИП, а внести оплаты со счёта физлица (и наоборот)?","В теории можно, но у физлица нет права на вычет НДС, а регулярные платежи от физлиц по договорам юрлица могут привлечь внимание финмониторинга. На счёт ИП можно, так как квитанция формируется на физлицо. При оформлении договора на физлицо оплата на СБР с ООО возможна, с ИП — при условии, что ИП оформлен на клиента."]]}]},
+msk:{n:"03",t:"Сделки с материнским капиталом",s:"Способы оплаты и частые вопросы",b:[
+ {k:"note",h:"100% оплата / рассрочка",t:"Возможно использование только при возрасте ребенка, на которого выдан МСК, более 3 лет."},
+ {k:"note",h:"Ипотека",t:"При ипотеке возможно использовать МСК в ПВ. Список банков, допускающих такой способ оплаты, указан здесь.",l:["Список банков","https://docs.google.com/spreadsheets/d/1BIwMWMBAB7LR9MbR5qGrIXYbq_LdFshCPz1Q_l-Mqcs/edit?gid=277931211"]},
+ {k:"faq",i:[
+  ["Когда подавать заявление на МСК?","После регистрации сделки."],
+  ["Как средства МСК будут возвращаться при расторжении ДДУ?","После расторжения ДДУ в банк от Росреестра направляется зарегистрированное соглашение о расторжении. Банк на основании документов осуществляет возврат МСК в СФР. При необходимости клиенту могут позвонить из СФР для подтверждения информации."],
+  ["Сколько квадратных метров необходимо выделить ребенку при использовании МСК?","В законе нет точного размера выделяемой доли при использовании МСК, доля выделяется пропорционально сумме МСК."],
+  ["Можно ли использовать средства МСК, если в договоре только дети?","При участии в сделке только несовершеннолетних использование средств МСК без держателя сертификата недопустимо."]]}]}
+};
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function hl(s,q){s=esc(s);if(!q)return s;var r=new RegExp("("+q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","gi");return s.replace(r,"<mark>$1</mark>")}
+function faq(i,q,open){return i.map(function(x){return '<details class="q"'+(open?' open':'')+'><summary>'+hl(x[0],q)+'</summary><div class="a"><div class="ans">'+hl(x[1],q)+(x[3]?'<br><a class="lnk" target="_blank" rel="noopener" href="'+x[3]+'">'+esc(x[2])+' →</a>':'')+'</div></div></details>'}).join("")}
+function count(s){var n=0;s.b.forEach(function(b){n+=b.i?b.i.length:1});return n}
+var idx=[];
+Object.keys(S).forEach(function(k){S[k].b.forEach(function(b){
+ if(b.k==="note")idx.push([k,b.h,b.t+(b.w?" "+b.w:"")]);
+ if(b.k==="bank")b.i.forEach(function(x){idx.push([k,b.h+" · "+x[0],x[1].join(" ")])});
+ if(b.k==="faq")b.i.forEach(function(x){idx.push([k,"Вопрос",x[0]+" — "+x[1]])})})});
+G.forEach(function(x){idx.push(["general","Общие вопросы",x[0]+" — "+x[1]])});
+var app=document.getElementById("app");
+function head(){return '<div class="top"><h1>Типы сделок и частые вопросы</h1><p>Памятка для менеджеров · нажмите на блок или воспользуйтесь поиском</p></div>'}
+function home(q){
+ var h=head()+'<div class="search"><span>🔍</span><input id="q" placeholder="Поиск по слову" value="'+esc(q||"")+'" autocomplete="off"><button id="x" title="Очистить">×</button></div><div id="body"></div>';
+ app.innerHTML=h;var inp=document.getElementById("q"),x=document.getElementById("x");
+ function draw(){var v=inp.value.trim(),b=document.getElementById("body");x.style.display=v?"block":"none";
+  if(v.length>=2){var low=v.toLowerCase(),r=idx.filter(function(e){return (e[1]+" "+e[2]).toLowerCase().indexOf(low)>-1});
+   b.innerHTML=r.length?'<h2 class="sec">Найдено: '+r.length+'</h2>'+r.map(function(e,n){var nm=e[0]==="general"?"Общие вопросы":S[e[0]].t;return '<div class="res" data-s="'+e[0]+'"><small>'+esc(nm)+' · '+hl(e[1],v)+'</small><p>'+hl(e[2],v)+'</p></div>'}).join(""):'<div class="empty">Ничего не найдено. Попробуйте другое слово.</div>';
+   b.querySelectorAll(".res").forEach(function(el){el.onclick=function(){var s=el.getAttribute("data-s");if(s==="general"){inp.value="";draw();document.getElementById("gt").click();document.getElementById("gen").scrollIntoView({behavior:"smooth"})}else location.hash=s}});return}
+  b.innerHTML='<div class="cards">'+Object.keys(S).map(function(k){var s=S[k];return '<button class="card" data-s="'+k+'"><h3>'+s.t+'</h3><small>('+s.s.toLowerCase()+')</small></button>'}).join("")+'</div><div id="gen" class="gw"><button class="card" id="gt"><div><h3>Общие вопросы</h3><small>('+G.length+' вопросов — нажмите, чтобы открыть)</small></div><span class="arr" id="ga">+</span></button><div class="panel hide" id="gp" style="border-top:1px solid var(--ln);border-radius:6px">'+faq(G,"",false)+'</div></div>';
+  b.querySelectorAll(".card").forEach(function(c){c.onclick=function(){location.hash=c.getAttribute("data-s")}});var gt=document.getElementById("gt");gt.onclick=function(){var o=document.getElementById("gp").classList.toggle("hide");document.getElementById("ga").textContent=o?"+":"–"}}
+ inp.oninput=draw;x.onclick=function(){inp.value="";draw();inp.focus()};draw()}
+function crumbs(a){return '<div class="crumb">'+a.map(function(x){return x[1]!==undefined?'<a data-h="'+x[1]+'">'+esc(x[0])+'</a>':esc(x[0])}).join(" / ")+'</div>'}
+function grid(b){return '<div class="grid">'+b.i.map(function(x){
+  var st=x[4]?'<span class="st'+(x[4]===2?' no':'')+'">'+(x[4]===2?'НЕТ':'ДА')+'</span>':'';
+  return '<div class="bank" data-b="'+esc(x[0])+'"><h4>'+esc(x[0])+st+'</h4>'+x[1].map(function(t){var m=AB.filter(function(a){return t.indexOf(a+":")===0})[0];return '<div class="r">'+(m?'<span class="tag">'+m+'</span><br>'+esc(t.slice(m.length+2)):esc(t))+'</div>'}).join("")+(x[3]?'<div class="r"><a class="lnk" style="margin:0" target="_blank" rel="noopener" href="'+x[3]+'">'+esc(x[2])+' →</a></div>':'')+'</div>'}).join("")+'</div>'}
+function sec(k){var s=S[k],banks=[];
+ s.b.forEach(function(b){if(b.k==="bank")b.i.forEach(function(x){if(banks.indexOf(x[0])<0)banks.push(x[0])})});
+ var h='<button class="back" id="bk">← Назад</button>'+crumbs([["Главная",""],[s.t]])+'<h1 class="pt">'+s.t+'</h1>';
+ if(banks.length>1)h+='<div class="chips" id="ch" style="margin-bottom:14px"><button class="chip on" data-b="">Все банки</button>'+banks.map(function(n){return '<button class="chip" data-b="'+esc(n)+'">'+esc(n)+'</button>'}).join("")+'</div>';
+ s.b.forEach(function(b){
+  if(b.k==="note")h+='<div class="blk"><div class="band">'+esc(b.h)+'</div><div class="panel" style="padding:14px">'+esc(b.t)+(b.l?'<br><a class="lnk" target="_blank" rel="noopener" href="'+b.l[1]+'">'+b.l[0]+' →</a>':'')+(b.w?'<div class="warn">'+esc(b.w)+'</div>':'')+'</div></div>';
+  if(b.k==="bank")h+='<div class="blk"><div class="band">'+esc(b.h)+'</div><div class="panel" style="padding-top:0">'+grid(b)+'</div></div>';
+  if(b.k==="faq")h+='<div class="blk"><div class="band">Вопрос-ответ<i>'+b.i.length+'</i></div><div class="panel">'+faq(b.i,"",false)+'</div></div>'});
+ app.innerHTML=h;document.getElementById("bk").onclick=function(){location.hash=""};
+ app.querySelectorAll(".crumb a").forEach(function(a){a.onclick=function(){location.hash=a.getAttribute("data-h")}});
+ var ch=document.getElementById("ch");if(ch)ch.onclick=function(e){var z=e.target.closest(".chip");if(!z)return;var v=z.getAttribute("data-b");ch.querySelectorAll(".chip").forEach(function(y){y.classList.toggle("on",y===z)});app.querySelectorAll(".bank").forEach(function(el){el.classList.toggle("hide",!!v&&el.getAttribute("data-b")!==v)});app.querySelectorAll(".blk").forEach(function(bl){var g=bl.querySelector(".grid");if(g)bl.classList.toggle("hide",!!v&&!g.querySelector(".bank:not(.hide)"))})}}
+function route(){var k=location.hash.slice(1).split("/")[0];if(S[k])sec(k);else home();window.scrollTo(0,0)}
+window.addEventListener("hashchange",route);route();
+</script>
+</body>
+</html>
